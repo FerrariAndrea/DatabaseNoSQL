@@ -1,3 +1,6 @@
 [submodule "1_introduction/workshop-intro-to-cassandra"]
 	path = 1_introduction/workshop-intro-to-cassandra
 	url = https://github.com/datastaxdevs/workshop-intro-to-cassandra.git
+[submodule "1_cassandra"]
+	path = 1_cassandra
+	url = https://github.com/datastaxdevs/workshop-intro-to-cassandra.git

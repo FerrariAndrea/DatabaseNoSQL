@@ -6,7 +6,7 @@ For any question you can find me at andreaferrari@fitstic-edu.com.
 The course is divided into 6 parts.
 
 # Table of content
-- [General theory](./0_introduction/Database_noSQL.pdf) and Cassandra
+- [General theory](./0_introduction/Database_noSQL.pdf) and [Cassandra](./1_cassandra/workshop-intro-to-cassandra/)
 - MongoDB
 - Deep dive into MongoDB and how to build a small node.js server
 - Neo4J

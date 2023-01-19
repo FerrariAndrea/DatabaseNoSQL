@@ -12,7 +12,9 @@ If you need you can strictly define the structure inside a document using *schem
 
 # JSON
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. 
+
 [Learn more about it.](https://www.json.org/json-en.html)
+
 [A JSON formatter and validator](https://jsonformatter.curiousconcept.com)
 
 

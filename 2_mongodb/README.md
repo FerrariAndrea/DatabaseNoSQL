@@ -12,7 +12,9 @@ If you need you can strictly define the structure inside a document using *schem
 
 # JSON
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. 
+
 [Learn more about it.](https://www.json.org/json-en.html)
+
 [A JSON formatter and validator](https://jsonformatter.curiousconcept.com)
 
 
@@ -186,6 +188,7 @@ It is used for server-side programming, and primarily deployed for non-blocking,
 NPM (Node Package Manager) is used to manage the dependecies of your node.js service (Mongoose is a dependecy).
 
 Download [Node.js](https://nodejs.org/it/download/)
+Coding with node.js, [example and explanation](./nodejs/README.md)
 
 Create a new node.js project.
 - create a new directory and inside run `npm init`

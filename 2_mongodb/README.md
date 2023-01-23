@@ -185,6 +185,8 @@ It is used for server-side programming, and primarily deployed for non-blocking,
 
 NPM (Node Package Manager) is used to manage the dependecies of your node.js service (Mongoose is a dependecy).
 
+Download [Node.js](https://nodejs.org/it/download/)
+
 Create a new node.js project.
 - create a new directory and inside run `npm init`
 - install our dependency `npm i -s express`, `npm i -s cors`, and `npm i -s mongoose`

@@ -24,5 +24,44 @@ If you’d like to learn more about any of these, you can read more about Graph 
 
 [register an account](https://neo4j.com/cloud/platform/aura-graph-database/?ref=developer-guides)
 
+Create a new instance
+![step1](./img/step01.jpg)
+![step2](./img/step02.jpg)
 
-create a new instance
+Wait until the instance is ready, and when the status will be "running" click on "Open".
+![step3](./img/step03.jpg)
+In the new tab that will open on your browser, accept the policy and insert your password (the password that you should saved at the creation of the database instance).
+
+Now you should see the web interface that will allow us to create nodes!
+Let's create some nodes, by clicking on "Add node" and then filling in the menu on the right that will open.
+That part is about data modelization, you need to create nodes and relations structure.
+Then you can import CSV files, that contain your data (like a table) for each node and relation.
+![step4](./img/step04.jpg)
+In that example we need to import 3 files:
+- [auto](./auto.csv) That contains cars (nodes instance)
+- [persone](./persone.csv) That contains people (nodes instance)
+- [possiede](./possiede.csv) That contains possession relations between the 2 types  of nodes "persone" and "auto"
+
+Remember to link/map these files to your model, if you don't make mistake you will able to finalize the import of your data!
+![step5](./img/step05.jpg)
+![step6](./img/step06.jpg)
+
+Now you can explore your data
+![step7](./img/step07.jpg)
+and query your database 
+```
+MATCH ( auto:Auto { marca: "AUDI" }) RETURN auto LIMIT 25;
+```
+![step8](./img/step08.jpg)
+
+Add a new car..
+```
+CREATE ( auto:Auto { marca: "Ferrari",targa:"FF000FF" , anno:2020,modello:"812 SUPERFAST"})
+```
+
+![step9](./img/step09.jpg)
+
+Neo4J allow us to use Graphql too, you can find the guide [here](https://neo4j.com/docs/graphql-manual/current/queries/).
+You can find help for conneting your Neo4J Database in the main dashoard.
+![step10](./img/step10.jpg)
+

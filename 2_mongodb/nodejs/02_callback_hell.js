@@ -55,7 +55,7 @@ The Promise object represents the eventual completion (or failure) of an asynchr
 You can create a Promise, and when you call an async function without using await you will receive a Promise of the async function.
 We will use "delay" in order to simulate an i/o request that will pause the function which calls it
 */
-const delay = function(ms){return new Promise(resolve => setTimeout(resolve, ms))}
+const delay = function(ms){return new Promise(function(resolve){setTimeout(resolve, ms)})}
 /*
 using "async" before "function" we are defining a function that is able to:
 - paused and grant node.js to run other stuff while that function is paused

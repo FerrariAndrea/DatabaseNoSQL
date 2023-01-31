@@ -50,7 +50,7 @@ function myClac(){
     as an argument for "fun"
     */
 
-    const anotherFunction= function(num,fun,repeat){
+    var anotherFunction= function(num,fun,repeat){
         var temp= num;
         for(var x = 0;x<repeat;x++){
             temp=fun(temp);

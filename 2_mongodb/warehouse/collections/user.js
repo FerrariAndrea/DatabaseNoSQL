@@ -7,9 +7,9 @@ const user = new Schema({
     surname:String,
 })
 
-user.pre('save', function(next) {
-    this.data_cre =  new Date();
-    next();
-});
+// user.pre('save', function(next) {
+//     this.data_cre =  new Date();
+//     next();
+// });
 
 module.exports = mongoose.model("user", user, "user");

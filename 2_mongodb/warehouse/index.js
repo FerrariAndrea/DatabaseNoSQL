@@ -1,4 +1,4 @@
-const DB = "mongodb+srv://tsg:WxLLWDAx2kwWoTQv@cluster0.vgyfv.mongodb.net/warehouse?retryWrites=true&w=majority";
+const DB = "mongodb+srv://<user>:<pw>@cluster0.vgyfv.mongodb.net/warehouse?retryWrites=true&w=majority";
 
 
 const express = require('express');

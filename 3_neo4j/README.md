@@ -33,7 +33,8 @@ Wait until the instance is ready, and when the status will be "running" click on
 In the new tab that will open on your browser, accept the policy and insert your password (the password that you should saved at the creation of the database instance).
 
 Now you should see the web interface that will allow us to create nodes!
-Let's create some nodes, by clicking on "Add node" and then filling in the menu on the right that will open.
+Let's create some nodes, by clicking on "Add node" and then filling in the menu on the right that will open, with your properties that need to be mapped with your CSV file columns.
+To create the relation between nodes, you need to select a node and then drag and drop with your mouse the relation from the source node to the destination one.
 That part is about data modelization, you need to create nodes and relations structure.
 Then you can import CSV files, that contain your data (like a table) for each node and relation.
 ![step4](./img/step04.jpg)

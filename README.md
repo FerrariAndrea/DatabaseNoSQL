@@ -10,5 +10,4 @@ The course is divided into 6 parts.
 - [MongoDB](./2_mongodb/README.md)
 - Deep dive into MongoDB and how to build a small node.js server: [node](./2_mongodb/nodejs/README.md)
 - [Neo4J](./3_neo4j/README.md)
-- Blazegraph (RDF)
-- Summary and conclusion
+- [Blazegraph (RDF)](./4_blazegraph/README.md)

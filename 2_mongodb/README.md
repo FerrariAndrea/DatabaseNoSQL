@@ -181,6 +181,21 @@ Other examples of query:
 - `{"parts":{$gt: {$size: 1}}}`
 - `{"price":{$lte: 200}}`
 
+# MongoDB and backend
+MongoDB doesn't have an easy way to create a join query and doesn't have triggers that we can use to propagate consistency into our collections.
+
+For example, if we have two different collections, "user" and "car" and we know that there is a relation between them, every user can have one or more cars.
+How to create a query that will give us the full list that represents that relation?
+In a relational database usually (for example using SQL) we can use the JOIN operator, which will merge two or more tables and allow us to filter them, getting as a result the data of the two tables following the relation that we explicitate.
+
+Using MongoDB, usually a backend service will cover these needs.
+This is good for scalability too because the database will have less responsibility and so will be able to scale better into a replicated distributed microservices architecture.
+
+![Step12](./img/schema.jpg)
+There are several ways to increase and manage performance using a microservice architecture, for example, referring to the image up here, 
+we have a load balancer for the DB section and another one for the backend section, every request received from the load balancer will be redirected to the less busy instance (is more complex than this, but keep it simple).
+Every instance can be hosted inside a virtual machine or a docker image, which can increase or decrease the amount of resources like memory, and CPU. 
+
 # Node.js
 Node.js is a cross-platform, open-source server environment.
 It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers.

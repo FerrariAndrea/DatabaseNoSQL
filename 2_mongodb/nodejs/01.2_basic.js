@@ -36,11 +36,8 @@ function read2Addend(user_command){
     //but the other 2 are the 2 numbers that we need
 
     // here we try to handle a wrong command, that don't contains the 2 number
-    // we check if the array contains exactly 3 elements, because 
-    // otherwise, the code that came after will fail
-    // You can try to comment this entire "if" 
-    // and see what happens asking for a command like: 'add 4'
-    if(array_str.length!==3){
+    // we check if the array contains exactly 3 elements, and the 2° and 3° elements are number
+    if(array_str.length!==3 || isNaN(array_str[1]) || isNaN(array_str[2])){
         console.log("An error in your command found!")
         return {a:0,b:0}
     }

@@ -1,7 +1,5 @@
 const prompt = require('prompt-sync')();
 
-console.log("ciao :)")
-
 function applicaSconto(prez, scon) {
     return prez - (prez * scon) / 100
 }

@@ -9,9 +9,4 @@ const order = new Schema({
     item_id:String,
 })
 
-// user.pre('save', function(next) {
-//     this.data_cre =  new Date();
-//     next();
-// });
-
 module.exports = mongoose.model("order", order, "order");

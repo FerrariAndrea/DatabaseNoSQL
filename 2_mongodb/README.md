@@ -226,6 +226,9 @@ A schema is a JSON object that defines the the structure and contents of your da
 We decide to use the scheme for the collections 'user' and 'order' but not for 'item'.
 In order to skip the document schema validation use `{ strict: false }` as a parameter of the Schema.
 
+# First example (one js file)
+- [Esercizio carrello spesa](./ex_carrello_spesa/)
+
 # project goals
 
 - route to list users

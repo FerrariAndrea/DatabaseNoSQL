@@ -13,7 +13,6 @@ var a = function(){
 var b = function(){
     console.log("I'm --> b");
 }
-
 //these 2 functions "a" and "b" are sync
 //and if we run them we can see that the output order is the same as the call order
 a();
@@ -86,7 +85,7 @@ async function work(){
     console.log("---------------------------pt.3");
 
     //using wait
-    await c();
+    const ris1= await c();
     await d();
     //remember you can't use "await" inside a function that is NOT "async"
     //this is why "work" is defined as "async"

@@ -43,7 +43,7 @@ So we will have:
 - an item can be a complex item that is composed of parts
 - an item part is described by a label and can has 3 types of warning (battery warning, liquid warning, and glass warning)
 - an item part can be composed of other parts
-- user orders composed by id, user_id, array of item_id, a sent and a closed flag
+- user orders composed by id, user_id, array of item_id, a sent and a closed flag (what about the quantity of the bought items?)
 
 # MongoDB Compass
 Compass is an application that allows us to manage our MongoDB database, we will see how to create collections, insert data and query them with this application (note: compass can do more than that).

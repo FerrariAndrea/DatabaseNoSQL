@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "679354ad9c8c758238aa9c43"
+  },
+  "id_cliente": {
+    "$oid": "67934e769c8c758238aa9c3d"
+  },
+  "ordinativo": [
+    {
+      "quantita": 1.5,
+      "nome_gusto": "Banana"
+    },
+    {
+      "quantita": 2,
+      "nome_gusto": "Amarena"
+    },
+    {
+      "nome_gusto": "Caffè",
+      "quantita": 3
+    }
+  ],
+  "tot": 6.5
+},
+{
+  "_id": {
+    "$oid": "67936b229c8c758238aa9c57"
+  },
+  "id_cliente": {
+    "$oid": "67934e769c8c758238aa9c3d"
+  },
+  "ordinativo": [
+    {
+      "quantita": 1.5,
+      "nome_gusto": "Banana"
+    }
+  ],
+  "tot": 1.5
+}]

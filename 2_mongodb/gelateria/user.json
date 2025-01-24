@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67934e769c8c758238aa9c3d"
+  },
+  "nome": "Paperino",
+  "cognome": "DePaperoni",
+  "indirizzo": {
+    "via": "delle mele",
+    "citta": "Bologna",
+    "cap": 40130
+  }
+},
+{
+  "_id": {
+    "$oid": "67935d629c8c758238aa9c4c"
+  },
+  "nome": "Topolino",
+  "cognome": "DePaperoni",
+  "indirizzo": {
+    "via": "napoleone",
+    "citta": "Bologna",
+    "cap": 40100
+  }
+},
+{
+  "_id": {
+    "$oid": "67935d919c8c758238aa9c4d"
+  },
+  "nome": "Matteo",
+  "cognome": "Rossi",
+  "indirizzo": {
+    "via": "erbosa",
+    "citta": "Imola",
+    "cap": 40000
+  }
+}]

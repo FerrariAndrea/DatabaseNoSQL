@@ -9,8 +9,8 @@ Ogni ordine può contenere N gusti in quantità diverse.
 Sarà necessario predisporre delle query per poter fare le seguenti operazioni (consiglio: una quary per operazione):
 - Ottenere un ordine dato il suo id
 - Sapere se un certo cliente esiste dato il suo nominativo
-- Sapere se un certo gusto con una certà quantità è disponibile in magazzino
-- Ottenere tutti i gusti in magazzino che sono disponibili in quantità minori di 5K
-- Ottenere la somma di KG di gelato venduti ad uno specifico cliente (indipendentemente dai gusti)
+- Ottenere tutti i gusti in magazzino che sono disponibili in quantità minori di 5Kg
+- Sapere se un certo gusto con almeno una certà quantità è disponibile in magazzino
+- Ottenere la somma di KG di gelato venduti ad uno specifico cliente di uno specifico ordine (indipendentemente dai gusti)
 - Ottenere tutti gli ordini che sono composti da esattamente 3 gusti diversi
 

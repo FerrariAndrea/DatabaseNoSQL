@@ -1,0 +1,21 @@
+// Ottenere un ordine dato il suo id
+{_id:ObjectId('679354ad9c8c758238aa9c43')}
+
+// Sapere se un certo cliente esiste dato il suo nominativo
+{nome:"Topolino",cognome:"DePaperoni"}
+
+// Ottenere tutti i gusti in magazzino che sono disponibili in quantità 
+{"kg":{$lt:5}}
+
+// Sapere se un certo gusto con una certà quantità è disponibile in magazzino
+{"nome":"Banana" ,"kg":{$gte:0.1}}
+
+// Ottenere la somma di KG di gelato venduti ad uno specifico cliente di uno specifico ordine (indipendentemente dai gusti)
+// query:
+{_id:ObjectId('679354ad9c8c758238aa9c43')}
+// project:
+{tot:1,_id:0}
+
+// Ottenere tutti gli ordini che sono composti da esattamente 3 gusti diversi
+{"ordinativo":{$size:3}}
+

@@ -1,4 +1,4 @@
-const DB = "mongodb+srv://tsg:9iLnMYJoxkOkmyP0@cluster0.vgyfv.mongodb.net/";
+const DB = "mongodb+srv://<username>:<pw>@<cluster>";
 
 
 const express = require('express');

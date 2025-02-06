@@ -10,8 +10,8 @@
 
 const a = 2;
 const b = 3 //js won't get angry if you don't write the ";" at the end of a code line
-const str1 ="this is a string" ; const str2 = "HELLO" //of course you need ";" between 2 different instruction
-const c = a+b;
+const str1 = "this is a string"; const str2 = "HELLO" //of course you need ";" between 2 different instruction
+const c = a + b;
 console.log("This is an example fo code that is running outside of a function!");
 console.log("c is " + c);
 
@@ -21,7 +21,7 @@ but you can use "var" or "let" to define a variable that can be changed.
 */
 
 var mystr = str1;
-mystr= str2+" "+mystr;
+mystr = str2 + " " + mystr;
 console.log(mystr);
 
 /*
@@ -31,15 +31,15 @@ into other functions, and you can create a function inside other functions.
 You can save functions inside "const" or "var"
 */
 
-function plus1(num){
- return num+1;
+function plus1(num) {
+    return num + 1;
 }
 
-const sub = function(num1,num2){
-    return num1-num2;
+const sub = function (num1, num2) {
+    return num1 - num2;
 }
-   
-function myClac(){
+
+function myClac() {
     /*
     "anotherFunction" is a "const" that contains a function
     and this function needs 3 args
@@ -50,30 +50,30 @@ function myClac(){
     as an argument for "fun"
     */
 
-    var anotherFunction= function(num,fun,repeat){
-        var temp= num;
-        for(var x = 0;x<repeat;x++){
-            temp=fun(temp);
+    var anotherFunction = function (num, fun, repeat) {
+        var temp = num;
+        for (var x = 0; x < repeat; x++) {
+            temp = fun(temp);
         }
         return temp;
     }
 
     var n1 = 10;
     const n2 = 20;
-    for(var x=0;x<5;x++){
-        n1= plus1(n1);
+    for (var x = 0; x < 5; x++) {
+        n1 = plus1(n1);
     }
     //here n1 is 15
-    const new_value= sub(n1,n2); //return 15-20=-5
-    
+    const new_value = sub(n1, n2); //return 15-20=-5
+
     //now we will return the result of the "anotherFunction" call
     //using "new_value" (that is -5) as an argument for the function "plus1"
     //that will call 3 times
     //the result is -2
-    return anotherFunction(new_value,plus1,3);
+    return anotherFunction(new_value, plus1, 3);
 }
 
 //let's call our "myClac" function
 
 const res = myClac();
-console.log("myClac result: "+res);
+console.log("myClac result: " + res);
